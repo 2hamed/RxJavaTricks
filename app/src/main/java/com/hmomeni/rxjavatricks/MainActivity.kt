@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
                         addAll(t2)
                     }
                 })
+                .iomain()
                 .subscribe({
                     // We now have all the posts as a single result
                     Log.d("RxJavaTricks", "items size: ${it.size}")
